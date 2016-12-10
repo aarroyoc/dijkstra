@@ -1,6 +1,6 @@
 [package]
 name = "dijkstra"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>"]
 
 description = "Generate minimum paths using Dijkstra algorithm"

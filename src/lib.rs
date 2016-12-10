@@ -2,8 +2,6 @@ extern crate nalgebra as na;
 
 use na::*;
 
-// DOCS, MODULE AND CRATE
-
 #[test]
 fn dijkstra_table_test() {
 	let i = i32::max_value();
@@ -119,8 +117,6 @@ pub fn dijkstra_table_gen(pesos: &DMatrix<i32>, start: usize) -> (DMatrix<i32>,D
 		if index_of_int_array(&row,cost) > -1 {
 			let pos: usize = index_of_int_array(&row,cost) as usize;
 			path.push(pos);
-			println!("Pushing {}",pos);
-			print_matrix(&matrix);
 		
 			for j in 0..row.len() {
 				if index_of_int_vector(&path,j) < 0 {

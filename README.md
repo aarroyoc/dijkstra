@@ -8,6 +8,9 @@ Generate minimum paths using Dijkstra algorithm.
 extern crate nalgebra as na;
 extern crate dijkstra;
 
+use na::*;
+use dijkstra::*;
+
 fn main(){
 	let i = i32::max_value(); // i means infinity or no connection between nodes
 	let matrix = DMatrix::from_row_vector(7,7,&[
