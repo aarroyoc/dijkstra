@@ -46,6 +46,7 @@ fn dijkstra_path_test() {
 	assert!(path.1 == 15, "Minimum weight is wrong");
 }
 
+#[allow(dead_code)]
 fn print_matrix(matrix: &DMatrix<i32>) -> () {
 	println!("");
 	let i: i32 = i32::max_value();
