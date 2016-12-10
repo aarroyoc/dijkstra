@@ -1,0 +1,13 @@
+[package]
+name = "dijkstra"
+version = "0.1.0"
+authors = ["Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>"]
+
+description = "Generate minimum paths using Dijkstra algorithm"
+repository = "http://github.com/AdrianArroyoCalle/dijkstra"
+readme = "README.md"
+keywords = ["dijkstra","path","node","pathfinding","graph"]
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.10.1"
